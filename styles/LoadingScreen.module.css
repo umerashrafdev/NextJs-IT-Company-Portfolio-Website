@@ -1,0 +1,9 @@
+.contanier{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    font-size: 100px;
+    color: aqua;
+}

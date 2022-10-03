@@ -1,0 +1,40 @@
+.contanier{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+.form{
+    height: 500px;
+    width: 500px;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;    
+}
+.inputS{
+    flex: 1;
+    height: 50px;
+    padding-left: 10px;
+}
+.inputS:first-child{
+    margin-right: 10px;
+}
+.inputl{
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+}
+.textarea {
+    width: 100%;
+    height: 100px;
+    padding-left: 10px;
+}
+.button{
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+}

@@ -1,0 +1,73 @@
+.container{
+width: 100%;
+height: 100vh;
+position: relative;
+padding: 0px 100px;
+overflow: hidden;
+display: flex;
+flex-direction:column ;
+align-items: center;
+justify-content: space-around;
+padding-bottom: 100px;
+box-sizing: border-box;
+
+}
+
+.title{
+    text-align: center;
+    font-size: xx-large;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.card{
+    width: 30%;
+}
+.comment{
+    font-style: 20px;
+    font-weight: 300;
+}
+.person{
+    display: flex;
+    align-items: center;
+}
+.avatar{
+    border-radius: 50%;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.username{
+    font-weight: bold;
+    color: gray;
+}
+.jobtitle{
+    font-style: 14px;
+}
+@media screen and (max-width:480px) {
+.container{
+    padding: 40px;
+    height: auto;
+    
+}
+.card{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 5px;
+}
+.title{
+    font-size: 50px;
+    
+   
+}
+}
