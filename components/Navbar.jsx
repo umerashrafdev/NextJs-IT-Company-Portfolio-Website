@@ -11,7 +11,7 @@ const Navbar = () => {
             </Link>
             <ul className={styles.list}>
                 <li className={styles.listitem}>
-                    <Link href="/product/design">Designing</Link>
+                    <Link href="/#Services">Services</Link>
                 </li>
                 <li className={styles.listitem}>
                     <Link href="/product/development">Devlopment</Link>

@@ -15,12 +15,11 @@ const Footer = () => {
         </h1>
       </div>
       <div className={styles.cardS}>
+        
         <div className={styles.carditem}>
-          Office 109 1st floor sabzazar<br/>lahore
+          info@onwardtech.co<br />+1 251 332 0736
         </div>
-        <div className={styles.carditem}>
-          info@onwardtech.co<br />+92319 447 8452
-        </div>
+        
       </div>
       <div className={styles.cardS}>
         <div className={styles.carditem}>

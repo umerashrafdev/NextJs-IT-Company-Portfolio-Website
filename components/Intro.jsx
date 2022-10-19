@@ -8,7 +8,7 @@ import Circle from './Circle'
       <Circle className={styles.circle} top="-50vh" left="-50vh" backgroundColor="#cdd404" />
       <Circle right="-40vh" className={styles.ani} />
         <div className={styles.card}>
-              <h1 className={styles.title}><span className={styles.brand}>Onward Tech</span> best IT company around the globe</h1>
+              <h1 className={styles.title}><span className={styles.brand}>ONWARD TECH</span><br/> One stop shop for all IT solutions.</h1>
               <p className={styles.desc}>are you planning to start new business online.we are here for you.</p>
               <button className={styles.button}>Discover</button>
         </div>

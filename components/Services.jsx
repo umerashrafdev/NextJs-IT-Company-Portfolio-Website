@@ -4,7 +4,7 @@ import React from 'react'
 import styles from '../styles/Services.module.css'
 const Services = ({Daata}) => {
   return (
-    <div className={styles.container}>
+      <div className={styles.container} id="Services">
         <h1 className={styles.title}>what do we offer?</h1>
         <h1 className={styles.subtitle}>Our services we are offering</h1>
         <div className={styles.services}>
