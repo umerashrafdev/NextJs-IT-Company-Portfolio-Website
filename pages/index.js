@@ -16,6 +16,7 @@ export default function Home({Ser}) {
       </Head>
       <main className={styles.box}>
         <Intro></Intro>
+        {/* Services */}
         <Services Daata={Ser}></Services>   
         <Testinomails></Testinomails>     
       </main>
